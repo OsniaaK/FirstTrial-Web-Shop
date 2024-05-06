@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina-de-tienda-snk">
+    <link rel="stylesheet" href="pagina1/styles/styles.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="h1-header"><a href="index.html" id="href-h1-header">SNK BEAST</a></h1>
+        <nav id="nav-header">
+            <a href="index.html" class="href-header-nav">Inicio</a>
+            <a href="soporte.html" class="href-header-nav">Soporte</a>
+            <a href="nosotros.html" class="href-header-nav">Nosotros</a>
+            <a href="carrito.html" class="href-header-nav">Carrito</a>
+            <a href="login.html" class="href-header-nav">Iniciar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <h2 id="title-filtros">Filtros de Búsqueda</h2>
+        <form method="get" id="form-filtros">
+            <input type="text" placeholder="¿Qué estás buscando?..." id="buscador-form">
+
+            <select name="orden-precios" id="orden-precios">
+                <option value="populares">Populares Primero</option>
+                <option value="ascendente">Precios Ascendentes</option>
+                <option value="descendiente">Precios Descendientes</option>
+            </select>
+
+            <select name="orden-precios" id="productos-lista">
+                <option value="">Productos</option>
+                <option value="memorias-ram">Memorias RAM</option>
+                <option value="motherboards">MotherBoards</option>
+                <option value="procesadores">Procesadores</option>
+                <option value="disipadores">Disipadores</option>
+                <option value="placas-de-video">Placas de video</option>
+                <option value="discos">Almacenamiento</option>
+                <option value="fuentes-de-poder">Fuentes de Poder</option>
+                <option value="gabinetes">Gabinetes</option>
+                <option value="coolers">Coolers</option>
+                <option value="mousepad">Mouse Pads</option>
+                <option value="teclados">Teclados</option>
+                <option value="mouse">Mouses</option>
+                <option value="monitores">Monitores</option>
+                <option value="sillas">Sillas Gamers</option>
+                <option value="auriculares">Auriculares</option>
+                <option value="microfonos">Microfonos</option>
+                <option value="accesorios">Otros Accesorios</option>
+            </select>
+
+            <input type="checkbox" name="envio-gratis" id="input-envio-gratis">
+            <label for="envio-gratis" id="label-envio-gratis">Envío Gratis</label>
+            <input type="checkbox" name="checkdescuentos" id="input-checkdescuentos">
+            <label for="checkdescuentos" id="label-checkdescuentos">Mostrar solo Productos en Descuento</label>
+
+            <button type="submit" id="boton-buscador-form">Buscar
+        </form>
+    </main>
+    <section>
+        <h2 id="title-lista-productos">Lista de Productos</h2>
+        <div id="lista-productos">
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/I5 14GEN.jpg" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Procesador Intel Core i5 14400F 4.7GHz Turbo</h3>
+                        <div class="info-producto">
+                            <p>Socket 1700 Raptor Lake</p>
+                            <div class="precio-producto">
+                                <p>$304.600</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/RAM 32GB 6400MHZ DDR5.jpg" alt="producto2" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Memoria DDR5 32GB (2x16GB) 6400MHz</h3>
+                        <div class="info-producto">
+                            <p>CL40 Intel XMP 3.0</p>
+                            <div class="precio-producto">
+                                <p>$173.250</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/COUGAR 80 GOLD 750W.jpg" alt="producto3" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Fuente Cougar 750W 80 Plus Gold</h3>
+                        <div class="info-producto">
+                            <p>GEC750</p>
+                            <div class="precio-producto">
+                                <p>$123.550</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/Ryzen 5 3600.jpg" alt="producto4" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Procesador AMD RYZEN 5 3600 4.2GHz</h3>
+                        <div class="info-producto">
+                            <p>AM4 Wraith Stealth Cooler</p>
+                            <div class="precio-producto">
+                                <p>$154.500</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/Monitor 24p 75hz.jpg" alt="producto5" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Monitor LG 24' IPS 75HZ Full HD</h3>
+                        <div class="info-producto">
+                            <p>FreeSync HDMI 24MK430H</p>
+                            <div class="precio-producto">
+                                <p>$129.850</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/Silla Gamer T3.jpg" alt="producto6" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Silla Gamer Corsair T3 Rush Fabric Carbon</h3>
+                        <div class="info-producto">
+                            <p>(Peso MAX. 120kg)</p>
+                            <div class="precio-producto">
+                                <p>$454.470</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/Gabinete Antec NX292.jpg" alt="producto7" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Gabinete Antec NX292 MESH RGB</h3>
+                        <div class="info-producto">
+                            <p>Vidrio Templado</p>
+                            <div class="precio-producto">
+                                <p>$68.650</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/4060 MSI.jpg" alt="producto8" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>GeForce RTX 4060 8GB GDDR6</h3>
+                        <div class="info-producto">
+                            <p>Ventus 2X White OC</p>
+                            <div class="precio-producto">
+                                <p>$478.900</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/SSD 512gb.jpg" alt="producto9" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Disco Solido SSD Team 512GB</h3>
+                        <div class="info-producto">
+                            <p>GX2 530MB/s</p>
+                            <div class="precio-producto">
+                                <p>$38.250</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/ADATA SSD 256GB.jpg" alt="producto10" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Disco Solido SSD M.2 ADATA 256GB</h3>
+                        <div class="info-producto">
+                            <p>2100MB/s NVMe PCIe Gen3</p>
+                            <div class="precio-producto">
+                                <p>$27.390</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/a520m asus.jpg" alt="producto11" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Mother ASUS PRIME A520M-K</h3>
+                        <div class="info-producto">
+                            <p>DDR4 AM4</p>
+                            <div class="precio-producto">
+                                <p>$83.879</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/others/productos/teclado redragon k639.jpg" alt="producto12" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Teclado Redragon Dragonborn K630</h3>
+                        <div class="info-producto">
+                            <p>60% Outemu Brown White</p>
+                            <div class="precio-producto">
+                                <p>$39.450</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="img-producto">
+                    <img src="pagina1/assets/imgs/productoprueba.png" alt="producto1" class="imagen-producto">
+                    <div class="nombre-producto">
+                        <h3>Producto de prueba 1</h3>
+                        <div class="info-producto">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="precio-producto">
+                                <p>$50.000</p>
+                                <div class="detalle-producto">
+                                    <p>Envío Gratis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
