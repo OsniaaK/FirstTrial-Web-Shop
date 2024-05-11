@@ -64,7 +64,8 @@ header {
 
 #form-filtros {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 #buscador-form {
