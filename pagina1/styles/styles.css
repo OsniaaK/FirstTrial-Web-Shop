@@ -64,7 +64,7 @@ header {
 
 #form-filtros {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 5px;
 }
 
@@ -77,7 +77,8 @@ header {
     font-family: "Outfit";
     font-size: 16px;
     text-align: center;
-    width: 160px;
+    display: flex;
+    width: 120px;
 }
 
 #buscador-form::placeholder {
@@ -119,6 +120,7 @@ header {
     font-size: 16px;
     width: 130px;
     text-align: center;
+    display: flex;
     transition: 0.3s;
 }
 
@@ -136,6 +138,7 @@ header {
     box-shadow: black 0px 0px 1px 2px;
     border-radius: 10px;
     appearance: none;
+    display: flex;
     cursor: pointer;
     width: 20px;
     height: 20px;
@@ -150,6 +153,7 @@ header {
     font-size: 16px;
     margin-left: 3px;
     text-shadow: black 1px 0px 7px;
+    cursor: pointer;
 }
 
 #checkboxes-filters:checked + label {
@@ -162,6 +166,7 @@ header {
     background-color: transparent;
     box-shadow: black 0px 0px 1px 2px;
     border-color: black;
+    display: flex;
     color: white;
     padding: 5px
 }
