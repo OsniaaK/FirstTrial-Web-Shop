@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to bottom right, rgb(1, 12, 114), rgb(207, 4, 197));
+    background-image: url(../assets/imgs/loginbackground.jpg);
+    background-repeat: round;
+    background-size: cover;
     font-family: "Outfit";
     color: white;
 }
@@ -42,6 +44,7 @@ header {
     padding: 0.5%;
     font-weight: 800;
     font-size: 18px;
+    transition: 0.2s;
 }
 
 .href-header-nav:hover {
@@ -101,6 +104,7 @@ header {
     font-size: 16px;
     width: 130px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #orden-precios:focus {
@@ -108,25 +112,8 @@ header {
     font-family: "Outfit";
 }
 
-#productos-lista {
-    background-color: transparent;
-    width: 20%;
-    font-family: "Outfit";
-    border-color: black;
-    border-radius: 10px;
-    box-shadow: black 0px 0px 1px 2px;
-    text-shadow: rgb(0, 0, 0) 1px 1px 4px;
-    color: white;
-    font-size: 16px;
-    width: 130px;
-    text-align: center;
-    display: flex;
-    transition: 0.3s;
-}
-
-#productos-lista:focus {
-    background-color: rgba(143, 71, 238, 0.7);
-    font-family: "Outfit";
+#productos-lista:hover {
+    cursor: pointer;
 }
 
 .envio-filters {
@@ -175,6 +162,7 @@ header {
     background-color: white;
     color: rgb(0, 0, 0);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #title-lista-productos {
@@ -199,6 +187,7 @@ header {
     margin-bottom: 15px;
     max-width: 250px;
     flex-wrap: wrap;
+    transition: 0.2s;
 }
 
 .producto:hover {
@@ -263,8 +252,8 @@ footer {
 #h4-footer {
     display: block;
     text-align: center;
-    margin: 15px;
-    padding: 15px;
+    margin-top: 15px;
+    padding: 25px;
 }
 
 #href-footer {
@@ -275,6 +264,7 @@ footer {
     background-color: black;
     box-shadow: white 1px 1px 20px;
     padding: 7px;
+    transition: 0.2s;
 }
 #href-footer:hover {
     background-color: white;

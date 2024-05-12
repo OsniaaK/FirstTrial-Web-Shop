@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../assets/imgs/loginbackground.jpg);
+    background-repeat: round;
+    background-size: cover;
+    font-family: "Outfit";
+    color: white;
+}
+
+header {
+    background-color: rgba(15, 1, 68, 0.3);
+    box-shadow: black 1px 1px 20px 10px;
+}
+
+#h1-header {
+    box-shadow: rgb(0, 0, 0) 1px 1px 20px 15px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#href-h1-header {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 2px 3px;
+}
+
+#nav-header {
+    display: flex;
+    justify-content: space-around
+}
+
+.href-header-nav {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 8px 6px 10px;
+    text-decoration: none;
+    margin: 2%;
+    padding: 0.5%;
+    font-weight: 800;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.href-header-nav:hover {
+    box-shadow: rgb(255, 255, 255) 1px 1px 10px 5px;
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.who-we-are {
+    background-color: rgba(26, 4, 105, 0.459);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#title-who-we-are {
+    padding: 20px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 20px;
+}
+
+#desc-who-we-are {
+    margin: 0px 60px 0px 60px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.where-we-are {
+    background-color: rgba(0, 0, 0, 0.445);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nuestra-ubicacion {
+    margin: 10px;
+}
+
+#googlemaps-ubicacion {
+    width: 500px;
+    height: 500px;
+    border-style: none;
+    padding: 20px;
+}
+
+#title-where-we-are {
+    justify-content: center;
+    text-shadow: rgb(0, 0, 0) 2px 2px 20px;
+    margin-bottom: 15px;
+}
+
+#desc-where-we-are {
+    text-align: justify;
+    width: 300px;
+
+}
+
+#title-socialmedia-contact {
+    text-align: center;
+    margin: 35px 0px 15px 0px;
+    text-shadow: black 2px 2px 20px;
+}
+
+#nav-socialmedia-contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 40px 0px;
+}
+
+.href-socialmedia-contact {
+    text-decoration: none;
+    color: white;
+    color: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.822);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.href-socialmedia-contact:hover {
+    background-color: rgba(137, 43, 226, 0.651);
+    transition: 0.1s;
+    border-radius: 25px;
+    border-bottom-style: hidden;
+    box-shadow: black 0px 0px 15px 5px;
+}
+
+.socialmedia-contact:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+.img-socialmedia-contact {
+    width: 50px;
+    height: 50px;
+    display:flex;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.185);
+    
+}
+
+#h4-footer {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+#href-footer {
+    color: white;
+    text-decoration: none;
+    text-shadow: black 5px 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    box-shadow: white 1px 1px 20px;
+    padding: 7px;
+    transition: 0.2s;
+}
+#href-footer:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+#lorem {
+    text-align: justify;
+    text-shadow: black 0px 0px 1px;
+    padding: 5px;
+}
+
+#numerocontacto {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
